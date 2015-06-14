@@ -7,3 +7,5 @@ func main() {
   x[4] = 100
   fmt.Println(x)
 }
+
+// Array Index also starts from 0
