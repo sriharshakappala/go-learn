@@ -1,0 +1,52 @@
+INTEGER
+Only contains positive integers and zero
+uint8
+uint16
+uint32
+uint64
+
+Negative too
+int8
+int16
+int32
+int64
+
+byte - same as uint8
+rune - same as int32
+
+Machine dependent integer types - These are machine dependent because their size depends on the type of architecture you are using
+uint
+int
+uintptr
+
+FLOATING
+float32
+float64
+complex32
+complex64
+
+"Genrally we would stick to int and float64"
+
+Strings are indexed at 0
+
+
+Other datatypes
+Array
+Slice
+Map
+
+
+Array Declaration
+var xyz [5]float64
+
+Slice Declaration
+var xyz []float64
+(Notice the missing length)
+
+MAPS
+var x map[string]int
+Here the key type is string and value type is int
+
+**************
+What are closures?
+**************
